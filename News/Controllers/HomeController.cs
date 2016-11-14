@@ -44,10 +44,10 @@ namespace News.Controllers
         /// <returns></returns>
         public ActionResult List(int page=10)
         {
-            string[] data= new string[] { "台风逼近广西景区关闭学校停课",
-                "广西每年入境游客超300万" ,
-                "空军招飞初选10月24日开始",
-                "柳州城市轨道交通勘探工作已展开"};
+            string[] data= new string[] { "台风逼近广西",
+                "台风席卷海南" ,
+                "金三胖百度上找不到了",
+                };
 
             ViewBag.data = data;
             ViewBag.Page = page;
